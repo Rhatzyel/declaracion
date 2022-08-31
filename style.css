@@ -1,0 +1,45 @@
+/*////PAGE 1////*/
+*{
+    margin: 0;
+}
+@font-face {
+    font-family:IndieFlower;
+    src: url(IndieFlower-Regular.ttf);
+}
+.contenedor{
+    background-image: linear-gradient(to right top, #bb1d2b, #c94495, #9184e6, #00b5ff, #12d9eb);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    margin: 0px;
+    font-size: 0px;
+    padding: 0px;
+}
+
+p{
+    font-size: xx-large;
+    font-family:IndieFlower;
+    padding: 15%;
+    text-shadow: 4px 3px 3px rgba(248,25,193,0.34);
+}
+
+button{
+    font-size: xx-large;
+    font-family:IndieFlower;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
+
+/*Corazon*/
